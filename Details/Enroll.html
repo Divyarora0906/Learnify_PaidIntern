@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll in Course</title>
+    <link rel="stylesheet" href="../style2.css">
+    <link rel="stylesheet" href="../style.css"> <!-- Link to your CSS file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+</head>
+<body>
+    <section id="First">
+      <div class="Navbar">
+        <div class="Logo">
+          <img src="../images/logo1.png" alt="Logo" class="brand_logo" />
+        </div>
+        <nav>
+          <ul class="" id="add">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../courses.html">Courses</a></li>
+            <li><a href="../About.html">About</a></li>
+            <li><a href="../Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <i class="fa-brands fa-instagram fa-xl"></i>
+          <i class="fa-brands fa-facebook fa-xl"></i>
+          <i class="fa-brands fa-whatsapp fa-xl"></i>
+          <div class="ham">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        
+      </div>
+      </section>
+    <section id="Enroll">
+        <div class="Enroll">
+            <h1>Enroll in Course</h1>
+            <form> <!-- Adjust the action and method as needed -->
+                <div class="formdata">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" required>
+                </div>
+                <div class="formdata">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="id" required>
+                </div>
+                <div class="formdata">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="formdata">
+                    <label for="course">Select Course:</label>
+                    <select  name="course" required>
+                        <option value="">--Select a Course--</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="digital-marketing">Digital Marketing</option>
+                        <option value="ai">Artificial Intelligence</option>
+                        <option value="seo">SEO</option>
+                        <option value="cyber-security">Cyber Security</option>
+                        <option value="c-plus-plus">C++ Programming</option>
+                    </select>
+                </div>
+                <div class="formdata">
+                    <button type="submit">Enroll Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="../script.js"></script>
+</html>
