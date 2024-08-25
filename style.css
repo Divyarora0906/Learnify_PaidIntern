@@ -458,7 +458,7 @@ img.About{
   width: 300px;
 }
   #Right>img{
-    height: 350px;
+    height: 300px;
     animation: infinite down linear 2.5s;
     margin-left: 50px;
     display: block;
@@ -493,4 +493,13 @@ img.About{
 }
 .Copy{
   text-align: center;
+}
+@media (max-width:425px) {
+  #Right>img{
+  height: 260px;
+  animation: infinite down linear 2.5s;
+  margin-left: 50px;
+  display: block;
+  margin: auto;
+  }
 }
